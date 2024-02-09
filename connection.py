@@ -15,9 +15,9 @@ def connect_to_database(host_name, user_name, database_name):
 
     return connection
 
-host = "34.141.227.97"
-user = "thinkpad"
-database = "hepsiburada_db"
+host = ""
+user = ""
+database = ""
 
 # Bağlantıyı dene
 connection = connect_to_database(host, user, database)
