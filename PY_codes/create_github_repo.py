@@ -3,8 +3,8 @@ import json
 
 def create_github_repo(repo_name, description, private=False):
     
-    username = 'tarikalim'
-    api_key = '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'
+    username = ''
+    api_key = ''
 
     url = 'https://api.github.com/user/repos'
     payload = {
